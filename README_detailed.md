@@ -4,8 +4,11 @@
 
 **Section-by-section reading lists for *Towards Next-Generation Architectures of Large Language Models: A Survey***
 
-[![Map](https://img.shields.io/badge/organized%20by-section%20number-111827?style=flat-square)](#contents)
-[![Companion](https://img.shields.io/badge/companion-survey%20overview-0F766E?style=flat-square)](README.md)
+[![Organized by](https://img.shields.io/badge/Organized%20by-Section%20Number-111827?style=flat-square)](#contents)
+[![Companion](https://img.shields.io/badge/Companion-Survey%20Overview-0F766E?style=flat-square)](README.md)
+[![GitHub](https://img.shields.io/badge/GitHub-LLMArchitectureSurvey-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SurveyLLMArch/LLMArchitectureSurvey)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Community-FFD21E?style=flat-square&logo=huggingface&logoColor=111827)](https://huggingface.co/spaces/SurveyLLMArch/README)
+[![Paper](https://img.shields.io/badge/Paper-on%20Preprints.org-FBBF24?style=flat-square&labelColor=F59E0B)](https://www.preprints.org/manuscript/202610.1532)
 
 <br>
 
@@ -1469,3 +1472,23 @@ These items are part of the survey’s historical discussion, but this list coul
 | 2026 | Wall Attention: Length Generalization With Diagonal Gates | misc | [link](https://blog.tilderesearch.com/blog/wall-attn) |
 
 ---
+
+## Citation
+
+If you find our [paper](https://www.preprints.org/manuscript/202610.1532) helpful, please cite it. Thank you.
+
+```bibtex
+@article{llmarchsurvey2026,
+	doi = {10.20944/preprints202610.1532.v1},
+	url = {https://doi.org/10.20944/preprints202610.1532.v1},
+	year = 2026,
+	month = {October},
+	publisher = {Preprints},
+	author = {Yao Teng and Guoxuan Chen and Yimeng Chen and Han Shi and Piotr Piękos and Jie Ran and Yutao Zeng and Chuanyang Zheng and Jingyao Li and Li Nanbo and Haoli Bai and Chao Huang and Xihui Liu and Di He and Weiyang Liu and Jürgen Schmidhuber},
+	title = {Towards Next-Generation Architectures of Large Language Models: A Survey},
+	journal = {Preprints}
+}
+```
+
+[Paper on Preprints.org](https://www.preprints.org/manuscript/202610.1532) · [doi:10.20944/preprints202610.1532.v1](https://www.preprints.org/manuscript/202610.1532)
+
