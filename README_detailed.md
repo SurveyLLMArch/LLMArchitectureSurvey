@@ -6,6 +6,7 @@
 
 [![Organized by](https://img.shields.io/badge/Organized%20by-Section%20Number-111827?style=flat-square)](#contents)
 [![Companion](https://img.shields.io/badge/Companion-Survey%20Overview-0F766E?style=flat-square)](README.md)
+[![Project Page](https://img.shields.io/badge/Project%20Page-Website-1E3A8A?style=flat-square&logo=googlechrome&logoColor=white)](https://surveyllmarch.github.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-LLMArchitectureSurvey-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SurveyLLMArch/LLMArchitectureSurvey)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Community-FFD21E?style=flat-square&logo=huggingface&logoColor=111827)](https://huggingface.co/spaces/SurveyLLMArch/README)
 [![Paper](https://img.shields.io/badge/Paper-on%20Preprints.org-FBBF24?style=flat-square&labelColor=F59E0B)](https://www.preprints.org/manuscript/202610.1532)
