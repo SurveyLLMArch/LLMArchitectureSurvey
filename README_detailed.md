@@ -1,6 +1,6 @@
 <div align="center">
 
-# Literature map
+# Literature Map
 
 **Section-by-section reading lists for *Towards Next-Generation Architectures of Large Language Models: A Survey***
 
@@ -21,7 +21,7 @@ This page lists the works each chapter discusses.
 
 <a id="mmlu"></a>
 
-## Earlier generations, on MMLU
+## Earlier Generations, on MMLU
 
 Section 1 uses MMLU to cover models released from about 2021 through 2025, before that benchmark crowded the top of the scale. The horizontal axis is release date. Marker area is a stand-in for parameter count; for older closed models whose sizes were not disclosed, the area is only illustrative. For mixture-of-experts models the outer marker is total parameters and the inner marker is active parameters.
 
@@ -64,7 +64,7 @@ The numbers are the survey’s section numbers. Section 2, Overview, is the taxo
 | 14 | Popular Architectures | [below](#14-popular-architectures) |
 | 15 | Beyond Components: A Unified View of Architectural Design | [below](#15-beyond-components-a-unified-view-of-architectural-design) |
 | 16 | Concluding Remarks | [below](#16-concluding-remarks) |
-| | Works without a stable public record | [appendix](#appendix--works-without-a-stable-public-record) |
+| | Works Without a Stable Public Record | [appendix](#appendix--works-without-a-stable-public-record) |
 
 ---
 
@@ -256,7 +256,7 @@ Section 4 fixes the notation the later chapters use: multi-head attention, the f
 
 </details>
 
-### 4.1 Multi-head Attention
+### 4.1 Multi-Head Attention
 
 ### 4.2 Feed-Forward Network
 
@@ -302,7 +302,7 @@ Section 4.6 is the standard next-token head: one distribution over the vocabular
 
 Decoder-only is the layout almost every later chapter assumes. Encoder-only and encoder–decoder are the other two configurations fixed in Section 4.7.
 
-#### 4.7.1 Decoder-only
+#### 4.7.1 Decoder-Only
 
 <details open>
 <summary>View papers</summary>
@@ -313,7 +313,7 @@ Decoder-only is the layout almost every later chapter assumes. Encoder-only and 
 
 </details>
 
-#### 4.7.2 Encoder-only
+#### 4.7.2 Encoder-Only
 
 <details open>
 <summary>View papers</summary>
@@ -682,7 +682,7 @@ Section 7.1 is a single subsection with three overlapping developments: sparse g
 
 Sparse MoE replaces selected feed-forward blocks with routed experts so that expert compute scales with the active subset rather than the full expert pool. Section 7 organizes the LLM line as three overlapping developments inside one subsection, Evolution of MoE in LLMs: sparse gating, the fine-grained shared-expert paradigm, and scale-driven systems-oriented variants. The opening table is the chapter-level set and already includes later fine-grained designs. The routing table is the sparse-gating machinery. The architecture table mixes fine-grained shared experts with systems-oriented variants and is not a clean split of those two later developments.
 
-### 7.1 · The era of sparse gating
+### 7.1 · The Era of Sparse Gating
 
 Top-*k* token choice, expert-choice routing, and load-balance losses are the core of this era. Representative systems include the sparsely gated MoE layer, GShard, Switch, BASE, GLaM, ST-MoE, and DeepSpeed-MoE.
 
@@ -711,7 +711,7 @@ Top-*k* token choice, expert-choice routing, and load-balance losses are the cor
 
 </details>
 
-#### Routing and load balance
+#### Routing and Load Balance
 
 <details open>
 <summary>View papers</summary>
@@ -734,11 +734,11 @@ Top-*k* token choice, expert-choice routing, and load-balance losses are the cor
 
 </details>
 
-### 7.1 · Fine-grained shared experts and systems-oriented variants
+### 7.1 · Fine-Grained Shared Experts and Systems-Oriented Variants
 
 Fine-grained designs split experts more narrowly and often isolate a shared expert that every token uses, as in DeepSeekMoE. Systems-oriented variants then treat all-to-all communication and expert-weight traffic as first-class constraints: shortcut-connected MoE, zero-computation experts, and latent experts are examples. Heterogeneous experts and non-uniform expert placement across layers remain open.
 
-#### Architecture and systems designs
+#### Architecture and Systems Designs
 
 <details open>
 <summary>View papers</summary>
@@ -1173,7 +1173,7 @@ A standard decoder applies the same stack of layers to every token. Section 13 v
 | 2022 | Confident Adaptive Language Modeling | Calibrated token-wise early exit | [paper](https://arxiv.org/abs/2207.07061) |
 | 2024 | LayerSkip: Enabling Early Exit Inference and Self-Speculative Decoding | Early layers draft, full model verifies | [paper](https://arxiv.org/abs/2404.16710) |
 
-### 13.2 Conditional Depth over Distinct Layers
+### 13.2 Conditional Depth Over Distinct Layers
 
 | Year | Title | Role | Paper |
 |---:|---|---|---|
@@ -1229,7 +1229,7 @@ Four shifts organize the narrative: architectural foundations and open replicati
 
 </details>
 
-#### Family reports
+#### Family Reports
 
 <details open>
 <summary>View papers</summary>
@@ -1270,7 +1270,7 @@ The four patterns are combinations, and one model can instantiate more than one.
 - **Hybrid sequence and state processing.** Griffin, Jamba, and Nemotron interleave recurrent and attention layers. Hymba runs both inside a layer. LoLCATs converts a pretrained attention model. MiniMax shows that the choice is also an infrastructure decision.
 - **Prediction-augmented backbones.** An MTP module can sit on a dense trunk (MiMo-7B) or a sparse one (DeepSeek-V3, LongCat-Flash, MiMo-V2-Flash). It changes the training horizon; it does not by itself define verification.
 
-#### Papers spanning the four patterns
+#### Papers Spanning the Four Patterns
 
 <details open>
 <summary>View papers</summary>
@@ -1368,7 +1368,7 @@ Section 16 closes with three observations. The dense decoder with a fixed schedu
 
 ---
 
-## Appendix · Works without a stable public record
+## Appendix · Works Without a Stable Public Record
 
 These items are part of the survey’s historical discussion, but this list could not attach a durable paper page. Check the title before citing. Blog posts and model cards are included when the survey treats them as a release record.
 
