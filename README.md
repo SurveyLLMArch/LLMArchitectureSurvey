@@ -6,9 +6,12 @@
 
 A reading guide to the survey: one question, one map, and the design space behind open-weight language models.
 
-[![Survey](https://img.shields.io/badge/type-survey-111827?style=flat-square)](#survey-map)
-[![Scope](https://img.shields.io/badge/scope-LLM%20architecture-0F766E?style=flat-square)](#chapters)
-[![Focus](https://img.shields.io/badge/focus-open--weight%20decoders-B45309?style=flat-square)](#patterns)
+[![Type](https://img.shields.io/badge/Type-Survey-111827?style=flat-square)](#survey-map)
+[![Scope](https://img.shields.io/badge/Scope-LLM%20Architecture-0F766E?style=flat-square)](#chapters)
+[![Focus](https://img.shields.io/badge/Focus-Open--weight%20Decoders-B45309?style=flat-square)](#patterns)
+[![GitHub](https://img.shields.io/badge/GitHub-LLMArchitectureSurvey-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SurveyLLMArch/LLMArchitectureSurvey)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Community-FFD21E?style=flat-square&logo=huggingface&logoColor=111827)](https://huggingface.co/spaces/SurveyLLMArch/README)
+[![Paper](https://img.shields.io/badge/Paper-on%20Preprints.org-FBBF24?style=flat-square&labelColor=F59E0B)](https://www.preprints.org/manuscript/202610.1532)
 
 <br>
 
@@ -447,17 +450,22 @@ A longer, section-numbered literature map is in [README_detailed.md](README_deta
 
 ## 📎 Citation
 
+If you find our [paper](https://www.preprints.org/manuscript/202610.1532) helpful, please cite it. Thank you.
+
 ```bibtex
-@article{teng2026nextgenllmarchitectures,
-  title   = {Towards Next-Generation Architectures of Large Language Models: A Survey},
-  author  = {Teng, Yao and Chen, Guoxuan and Chen, Yimeng and Shi, Han
-             and Pi{\k{e}}kos, Piotr and Ran, Jie and Zeng, Yutao and Zheng, Chuanyang
-             and Li, Jingyao and Li, Nanbo and Bai, Haoli and Huang, Chao
-             and Liu, Xihui and He, Di and Liu, Weiyang and Schmidhuber, J{\"u}rgen},
-  year    = {2026},
-  note    = {Manuscript}
+@article{llmarchsurvey2026,
+	doi = {10.20944/preprints202610.1532.v1},
+	url = {https://doi.org/10.20944/preprints202610.1532.v1},
+	year = 2026,
+	month = {October},
+	publisher = {Preprints},
+	author = {Yao Teng and Guoxuan Chen and Yimeng Chen and Han Shi and Piotr Piękos and Jie Ran and Yutao Zeng and Chuanyang Zheng and Jingyao Li and Li Nanbo and Haoli Bai and Chao Huang and Xihui Liu and Di He and Weiyang Liu and Jürgen Schmidhuber},
+	title = {Towards Next-Generation Architectures of Large Language Models: A Survey},
+	journal = {Preprints}
 }
 ```
+
+[Paper on Preprints.org](https://www.preprints.org/manuscript/202610.1532) · [doi:10.20944/preprints202610.1532.v1](https://www.preprints.org/manuscript/202610.1532)
 
 ## 👥 Authors
 
