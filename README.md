@@ -9,6 +9,7 @@ A reading guide to the survey: one question, one map, and the design space behin
 [![Type](https://img.shields.io/badge/Type-Survey-111827?style=flat-square)](#survey-map)
 [![Scope](https://img.shields.io/badge/Scope-LLM%20Architecture-0F766E?style=flat-square)](#chapters)
 [![Focus](https://img.shields.io/badge/Focus-Open--weight%20Decoders-B45309?style=flat-square)](#patterns)
+[![Project Page](https://img.shields.io/badge/Project%20Page-Website-1E3A8A?style=flat-square&logo=googlechrome&logoColor=white)](https://surveyllmarch.github.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-LLMArchitectureSurvey-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SurveyLLMArch/LLMArchitectureSurvey)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Community-FFD21E?style=flat-square&logo=huggingface&logoColor=111827)](https://huggingface.co/SurveyLLMArch/LLMArchitectureSurvey)
 [![Paper](https://img.shields.io/badge/Paper-on%20Preprints.org-FBBF24?style=flat-square&labelColor=F59E0B)](https://www.preprints.org/manuscript/202610.1532)
