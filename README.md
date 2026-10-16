@@ -10,7 +10,7 @@ A reading guide to the survey: one question, one map, and the design space behin
 [![Scope](https://img.shields.io/badge/Scope-LLM%20Architecture-0F766E?style=flat-square)](#chapters)
 [![Focus](https://img.shields.io/badge/Focus-Open--weight%20Decoders-B45309?style=flat-square)](#patterns)
 [![GitHub](https://img.shields.io/badge/GitHub-LLMArchitectureSurvey-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SurveyLLMArch/LLMArchitectureSurvey)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Community-FFD21E?style=flat-square&logo=huggingface&logoColor=111827)](https://huggingface.co/spaces/SurveyLLMArch/README)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Community-FFD21E?style=flat-square&logo=huggingface&logoColor=111827)](https://huggingface.co/SurveyLLMArch/LLMArchitectureSurvey)
 [![Paper](https://img.shields.io/badge/Paper-on%20Preprints.org-FBBF24?style=flat-square&labelColor=F59E0B)](https://www.preprints.org/manuscript/202610.1532)
 
 <br>
@@ -479,7 +479,7 @@ If you find our [paper](https://www.preprints.org/manuscript/202610.1532) helpfu
   Yutao Zeng<sup>4</sup> ·
   Chuanyang Zheng<sup>3</sup> ·
   Jingyao Li<sup>5</sup> ·
-  Nanbo Li<sup>2</sup><br>
+  Li Nanbo<sup>2</sup><br>
   Haoli Bai<sup>3</sup> ·
   Chao Huang<sup>1</sup> ·
   Xihui Liu<sup>1</sup> ·
